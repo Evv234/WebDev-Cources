@@ -1,0 +1,48 @@
+body{
+    font-family: 'Arial',sans-serif;
+    background-color: black;
+    color: white;
+}
+h1{
+    color: aqua;
+}
+/*Attribute selector*/
+a{
+    color: burlywood;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+/*child selector*/
+ul>li{
+    font-weight:bold ;
+}
+/*sibling collector*/
+h1,p{
+    background-color: black;
+    padding: 10px;
+     border-radius:5px ;
+}
+/*:hover pseudo-class*/
+ul>li:hover{
+    color: cadetblue;
+}
+/*nth-child(n) Pseudo-class*/
+ul li:nth-child(1) {
+    background-color: chocolate;
+}
+/* ::before pseudo-element*/
+ul li::before{
+    content: 🚀;
+}
+/*after pseudo-element*/
+a::after{
+    content: "🚀";
+}
+/*first-letter Pseudo-element*/
+p::first-letter{
+    font-size: 200%;
+    color: darkviolet;
+}
+    
